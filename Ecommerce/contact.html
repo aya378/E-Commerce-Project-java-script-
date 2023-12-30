@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contac.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="content">
+        <!-- header -->
+        <div class="navbar">
+            <h3>AG Store</h3>
+            <a href="./index.html">Home</a>
+            <a href="./aboutUs.html">About Us</a>
+            <a href="./contact.html">Contact Us</a>
+            <button id="cartButton">Cart (0)</button>
+        </div>
+
+        <section>
+            <form method="get" action="" id="formContent">
+            <table id="studentTable">
+                <tr>
+                    <th> <label for="name">Full Name</label></th>
+                    <td><input id="fname" type="text"></td>
+                    <td id="nameError"></td>
+                    
+                </tr>
+
+                <tr>
+                    <th> <label for="email">Email</label></th>
+                    <td><input id="email" type="text"></td>
+                    <td id="emailError"></td>                
+                </tr>
+ 
+               
+              
+                <tr>
+                    <th> <label for="phone">Phone Number</label></th>
+                    <td><input id="phone" type="phone"></td>
+                    <td id="phoneError"></td>
+                </tr>
+
+               
+                <tr>
+                    <th> <label for="comments">Your Comments</label></th>
+                    <td><textarea name="Comments" id="Comments" cols="70" rows="5"></textarea></td>
+                </tr>
+                
+            </table>
+            <br><br><br>
+            <!-- <button class="cancle">Cancle</button> -->
+            <button class="signupbtn">Contact Us </button>
+            <p id="thanks"></p>
+            <br>
+        </form>
+    </section>
+        <div class="footer">
+            <div class="footer-content">
+        
+                <div class="footer-section about">
+                    <h2>About Us</h2>
+                    <p> Welcome to our online store, where sophistication meets convenience! Explore a curated selection of skincare essentials.</p>
+                </div>
+        
+                <div class="footer-section contact"> 
+                    <h2>Contact Us</h2>
+                    <p>Email:ayagouda153@gmail.com <br> Phone:+201110024000</p>
+                </div>
+        
+        
+                <div class="footer-section social">
+                    <h2>Follow Us</h2>
+                    <a href="https://www.facebook.com/login/" class="social-icon" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/login" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/ " class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                   
+                </div>
+        
+                <div class="footer-section top">
+        
+                    <h3 class="h2"> <Button id="topButton">
+                        <img src="./images/top.png" alt="" id="topImg">
+                        <a href="" class="top"  target="_top">To Top</a>
+                        </Button></h3>
+                    
+                </div>
+        
+           </div>
+           <p class="footer-bottom">&copy; 2023 AG store. All rights reserved.</p>
+        </div>
+        <script src="./contact.js"></script>
+</body>
+</html>

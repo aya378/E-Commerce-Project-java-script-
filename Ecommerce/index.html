@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+<div class="content">
+    <!-- header -->
+    <div class="navbar">
+        <h3>AG Store</h3>
+        <a href="#home">Home</a>
+        <a href="./aboutUs.html">About Us</a>
+        <a href="./contact.html">Contact Us</a>
+        <button id="cartButton">Cart (0)</button>
+    </div>
+
+    <!-- slider --> 
+    <div class="slider-container">
+        <button class="prev-button" onclick="next()"> ❯ </button>
+        <div class="slider">
+        <div class="img-box">
+            <img src="./images/1.jpg" alt="first-product-img" class="slider-img">
+        </div>
+        <button class="next-button" onclick="prev()"> ❮ </button>
+        </div>
+    </div>
+
+    <!-- section of products -->
+    <section class="section">
+        Welcome to our online emporium, where an expansive array of products awaits to cater to your every need and desire. Our website is a treasure trove of offerings, featuring a diverse selection that spans across various categories, ensuring there's something for everyone. Whether you're in search of cutting-edge electronics, fashionable apparel, or the latest in home and lifestyle essentials, our virtual shelves are stocked with quality and variety. Navigating through our user-friendly interface, you'll discover a seamless experience where each product is thoughtfully presented with detailed descriptions and striking visuals. Immerse yourself in a world of possibilities as you explore our extensive product listings, each item carefully curated to meet the highest standards of excellence. With a commitment to customer satisfaction, we strive to provide not just products, but an immersive online shopping experience that resonates with convenience, quality, and style. Welcome to a destination where choices abound, and the perfect find is just a click away.
+    </section>
+
+    <!-- categories -->
+    <div class="categories">
+        <button id="allButton">All</button>
+        <button id="skincareButton">Skincare</button>
+        <button id="labtobButton">Laptops</button>
+        <button id="FragrancesButton">Fragrances</button>
+        <button id="smartButton">Smart Phones</button>
+        <button id="homeButton">home-decoration</button>
+    </div>
+
+    <div class="products-container">
+        <h1></h1>
+        <div id="products-container" class="row"></div>
+    </div>
+    
+</div>
+<div class="footer">
+    <div class="footer-content">
+
+        <div class="footer-section about">
+            <h2>About Us</h2>
+            <p> Welcome to our online store, where sophistication meets convenience! Explore a curated selection of skincare essentials.</p>
+        </div>
+
+        <div class="footer-section contact"> 
+            <h2>Contact Us</h2>
+            <p>Email:ayagouda153@gmail.com <br> Phone:+201142361079</p>
+        </div>
+
+
+        <div class="footer-section social">
+            <h2>Follow Us</h2>
+            <a href="https://www.facebook.com/login/" class="social-icon" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/login" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/accounts/login/ " class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+           
+            
+        </div>
+
+        <div class="footer-section top">
+
+            <h3 class="h2"> <Button id="topButton">
+                <img src="./images/top.png" alt="" id="topImg">
+                <a href="" class="top"  target="_top">To Top</a>
+                </Button></h3>
+            
+        </div>
+
+   </div>
+   <p class="footer-bottom">&copy; 2023 AG Store. All rights reserved.</p>
+</div>
+
+
+<script src="./main.js"></script>
+</body>
+</html>
